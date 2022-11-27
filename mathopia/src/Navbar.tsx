@@ -17,7 +17,9 @@ export default function Navbar(){
             <CustomLink href="/Home">   Home</CustomLink>
             <CustomLink href="/Support">Support</CustomLink>
             <CustomLink href="/AboutUs">About Us</CustomLink>
-            <CustomLink href="/ContactUs">Contact Us</CustomLink>   
+            <CustomLink href="/ContactUs">Contact Us</CustomLink>
+            <CustomLink href="/SignUp">SignUp</CustomLink>
+            <CustomLink href="/Login">Login</CustomLink>      
         </ul>
         </nav>  
        
