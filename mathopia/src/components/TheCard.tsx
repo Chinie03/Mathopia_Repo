@@ -24,7 +24,7 @@ export default function TheCard(props:CardDetails) {
         alt="meme"
       />
       <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
+        <Typography gutterBottom variant="h4" component="div">
           {props.title}
         </Typography>
         <Typography variant="body2" color="text.secondary">
