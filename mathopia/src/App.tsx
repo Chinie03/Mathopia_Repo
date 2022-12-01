@@ -10,6 +10,8 @@ import Games from './pages/Games';
 import MyScores from './pages/MyScores';
 import Login from './pages/Login';
 
+
+
 function App() {
   let component
   switch(window.location.pathname){
