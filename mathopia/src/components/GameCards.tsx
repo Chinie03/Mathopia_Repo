@@ -9,29 +9,27 @@ import Typography from '@mui/material/Typography';
 export interface GameCardDetails{
     title:string;
     image: string;
-    description: string;
     linkone?: string;
 }
 
 export default function GameCards(props:GameCardDetails) {
   return (
-    <Card sx={{ maxWidth: 100, textAlign: 'left', marginBottom:'1rem', margin:'2rem'}}>
+    <Card sx={{ maxWidth: 200 , textAlign: 'left', marginBottom:'1rem', margin:'2rem', maxHeight:300}}>
       <CardMedia
         component="img"
-        height="150"
+        height="100"
         image={props.image}
+        align-content= 'right'
+        background-position='right'
         alt="meme"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
           {props.title}
         </Typography>
-        <Typography variant="body2" color="text.secondary">
-         {props.description}
-        </Typography>
       </CardContent>
       <CardActions>
-      <Button size="small" href={props.linkone} variant='contained'style={{ backgroundColor: "#aa92df", borderStyle: "none", float: "right" }}>no</Button>
+      <Button size="medium" href={props.linkone} variant='contained'style={{ backgroundColor: "#429cf5", borderStyle: "none", float: "right" }}>Select</Button>
       </CardActions>
     </Card>
   );

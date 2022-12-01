@@ -1,6 +1,12 @@
 *{
     box-sizing: border-box;
 }
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 body{
     margin: 0;
     background-color: rgb(202, 224, 241) ;  
